@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { margin:0; font-family: -apple-system, "Segoe UI", sans-serif; }
+  .card { background:#0c2236; border-radius:12px; padding:1.5rem 1.5rem 1.75rem; box-sizing:border-box; }
+  h2 { margin:0 0 4px; font-size:18px; font-weight:600; color:#ffffff; }
+  .subtitle { margin:0 0 16px; font-size:13px; color:#7fb8e0; }
+  .pills { display:flex; flex-wrap:wrap; gap:8px; }
+  .pill { display:inline-flex; align-items:center; gap:8px; background:rgba(255,255,255,0.08); color:#ffffff; font-size:13px; padding:7px 14px; border-radius:999px; text-decoration:none; }
+  .pill:hover { background:rgba(255,255,255,0.14); }
+  .icon { width:18px; height:18px; border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:9px; font-weight:700; }
+  .icon-sales { background:#2266e3; color:#ffffff; }
+  .icon-bc { background:#ffaa44; color:#4a2e00; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h2>Quick links</h2>
+    <p class="subtitle">Dynamics 365 apps</p>
+    <div class="pills">
+      <a class="pill" href="https://gfs-prod.crm4.dynamics.com/main.aspx?appid=d74db71c-d780-ec11-8d21-000d3ab2c929&pagetype=dashboard&id=21b7ea8b-7969-ed11-9561-002248993732&type=system&_canOverride=true" target="_blank" rel="noopener">
+        <span class="icon icon-sales">S</span>
+        Sales 365
+      </a>
+      <a class="pill" href="https://businesscentral.dynamics.com/45ef7e47-57b8-4722-b702-556b79939725/production" target="_blank" rel="noopener">
+        <span class="icon icon-bc">B</span>
+        Business Central
+      </a>
+    </div>
+  </div>
+</body>
+</html>
